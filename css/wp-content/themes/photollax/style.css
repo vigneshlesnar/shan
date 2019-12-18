@@ -1,0 +1,409 @@
+/*
+Theme Name: Photollax
+Theme URI: http://thenordik.com/demo/themeforest/wordpress/photollax/
+Author: PranonTheme
+Author URI: https://themeforest.net/user/pranontheme
+Description: Multipurpose WordPress Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: photollax
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*---------- SPACING ----------*/
+
+
+/***********Custom**************/
+.feature.has-icon i{
+	width: inherit;
+	height: inherit;
+}
+
+.wpb_column{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Padding Zero */
+.p0{padding: 0!important}
+/* Padding Top */
+.pt10{padding-top:10px!important}
+.pt15{padding-top:15px!important}
+.pt20{padding-top:20px!important}
+.pt30{padding-top:30px!important}
+.pt40{padding-top:40px!important}
+.pt50{padding-top:50px!important}
+.pt60{padding-top:60px!important}
+.pt70{padding-top:70px!important}
+.pt80{padding-top:80px!important}
+.pt90{padding-top:90px!important}
+.pt100{padding-top:100px!important}
+.pt110{padding-top:110px!important}
+.pt120{padding-top:120px!important}
+.pt130{padding-top:130px!important}
+.pt140{padding-top:140px!important}
+/* Padding Bottom */
+.pb0{padding-bottom:0!important}
+.pb10{padding-bottom:10px!important}
+.pb15{padding-bottom:15px!important}
+.pb20{padding-bottom:20px!important}
+.pb30{padding-bottom:30px!important}
+.pb40{padding-bottom:40px!important}
+.pb50{padding-bottom:50px!important}
+.pb60{padding-bottom:60px!important}
+.pb70{padding-bottom:70px!important}
+.pb80{padding-bottom:80px!important}
+.pb90{padding-bottom:90px!important}
+.pb100{padding-bottom:100px!important}
+.pb110{padding-bottom:110px!important}
+.pb120{padding-bottom:120px!important}
+.pb130{padding-bottom:130px!important}
+.pb140{padding-bottom:140px!important}
+/* Padding Left */
+.pl0{padding-left:0 !important}
+.pl3{padding-left:3px !important}
+.pl5{padding-left:5px !important}
+.pl10{padding-left:10px !important}
+.pl20{padding-left:20px !important}
+.pl30{padding-left:30px !important}
+.pl40{padding-left:40px !important}
+.pl50{padding-left:50px !important}
+.pl60{padding-left:60px !important}
+.pl70{padding-left:70px !important}
+.pl80{padding-left:80px !important}
+.pl90{padding-left:90px !important}
+.pl100{padding-left:100px !important}
+.pl110{padding-left:110px !important}
+.pl120{padding-left:120px !important}
+.pl130{padding-left:130px !important}
+.pl140{padding-left:140px !important}
+/* Padding Right */
+.pr0{padding-right:0 !important}
+.pr5{padding-right:5px !important}
+.pr10{padding-right:10px !important}
+.pr20{padding-right:20px !important}
+.pr30{padding-right:30px !important}
+.pr40{padding-right:40px !important}
+.pr50{padding-right:50px !important}
+.pr60{padding-right:60px !important}
+.pr70{padding-right:70px !important}
+.pr80{padding-right:80px !important}
+.pr90{padding-right:90px !important}
+.pr100{padding-right:100px !important}
+.pr110{padding-right:110px !important}
+.pr120{padding-right:120px !important}
+.pr130{padding-right:130px !important}
+.pr140{padding-right:140px !important}  
+/* Margin Auto */
+.mr-auto{margin: auto !important;float: none !important;}
+/* Margin Top */
+.mt0{margin-top:0 !important}
+.mt5{margin-top:5px !important}
+.mt10{margin-top:10px !important}
+.mt20{margin-top:20px !important}
+.mt30{margin-top:30px !important}
+.mt40{margin-top:40px !important}
+.mt50{margin-top:50px !important}
+.mt60{margin-top:60px !important}
+.mt70{margin-top:70px !important}
+.mt80{margin-top:80px !important}
+.mt90{margin-top:90px !important}
+.mt100{margin-top:100px !important}
+.mt110{margin-top:110px !important}
+.mt120{margin-top:120px !important}
+.mt130{margin-top:130px !important}
+.mt140{margin-top:140px !important}
+/* Margin Bottom */
+.mb0{margin-bottom:0 !important}
+.mb5{margin-bottom:5px !important}
+.mb10{margin-bottom:10px !important}
+.mb15{margin-bottom:15px !important}
+.mb20{margin-bottom:20px !important}
+.mb30{margin-bottom:30px !important}
+.mb40{margin-bottom:40px !important}
+.mb50{margin-bottom:50px !important}
+.mb60{margin-bottom:60px !important}
+.mb70{margin-bottom:70px !important}
+.mb80{margin-bottom:80px !important}
+.mb90{margin-bottom:90px !important}
+.mb100{margin-bottom:100px !important}
+.mb110{margin-bottom:110px !important}
+.mb120{margin-bottom:120px !important}
+.mb130{margin-bottom:130px !important}
+.mb140{margin-bottom:140px !important}
+/* Margin Left */
+.ml0{margin-left:0 !important}
+.ml15{margin-left:5px !important}
+.ml10{margin-left:10px !important}
+.ml20{margin-left:20px !important}
+.ml30{margin-left:30px !important}
+.ml40{margin-left:40px !important}
+.ml50{margin-left:50px !important}
+.ml60{margin-left:60px !important}
+.ml70{margin-left:70px !important}
+.ml80{margin-left:80px !important}
+.ml90{margin-left:90px !important}
+.ml100{margin-left:100px !important}
+.ml110{margin-left:110px !important}
+.ml120{margin-left:120px !important}
+.ml130{margin-left:130px !important}
+.ml140{margin-left:140px !important}
+/* Margin Right */
+.mr0{margin-right:0 !important}
+.mr5{margin-left:5px !important}
+.mr10{margin-right:10px !important}
+.mr20{margin-right:20px !important}
+.mr30{margin-right:30px !important}
+.mr40{margin-right:40px !important}
+.mr50{margin-right:50px !important}
+.mr60{margin-right:60px !important}
+.mr70{margin-right:70px !important}
+.mr80{margin-right:80px !important}
+.mr90{margin-right:90px !important}
+.mr100{margin-right:100px !important}
+.mr110{margin-right:110px !important}
+.mr120{margin-right:120px !important}
+.mr130{margin-right:130px !important}
+.mr140{margin-right:140px !important}
+/* Additional Spacing */
+.wide-img-content{padding:0 10%}
+.p5percent{padding:0 5% !important;}
+.p10percent{padding:0 10% !important;}
+.p20percent{padding:0 20% !important;}
+.pt9perc{padding-top:9% !important;}
+.img-responsive{max-width: 100%;} 
+.width100{width: 100% !important;}
+
+
+/**
+ * 12.2 - Galleries
+ */
+
+.gallery {
+	margin: 0 -1.1666667% 1.75em;
+}
+
+.gallery-item {
+	display: inline-block;
+	max-width: 33.33%;
+	padding: 0 1.1400652% 2.2801304%;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-1 .gallery-item {
+	max-width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-icon img {
+	margin: 0 auto;
+}
+
+.gallery-caption {
+	color: #686868;
+	display: block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 0.5384615385em;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+
+
+address {
+	font-style: italic;
+	margin: 0 0 1.75em;
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	font-family: Inconsolata, monospace;
+}
+
+pre {
+	border: 1px solid #d1d1d1;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.3125;
+	margin: 0 0 1.75em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.75em;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+code {
+	background-color: #d1d1d1;
+	padding: 0.125em 0.25em;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #d1d1d1;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #007acc;
+	color: #fff;
+	padding: 0.125em 0.25em;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+
+/**
+ * 4.0 - Elements
+ */
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+ul,
+ol {
+	margin: 0 0 1.75em 1.25em;
+	padding: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+	margin-left: 1.5em;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+	vertical-align: middle;
+}
+
+del {
+	opacity: 0.8;
+}
+
+table,
+th,
+td {
+	border: 1px solid #d1d1d1;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	margin: 0 0 1.75em;
+	table-layout: fixed;
+	/* Prevents HTML tables from becoming too wide */
+	width: 100%;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+th {
+	border-width: 0 1px 1px 0;
+	font-weight: 700;
+}
+
+td {
+	border-width: 0 1px 1px 0;
+}
+
+th,
+td {
+	padding: 0.4375em;
+}
+
+.blog-widget select{
+	height: 40px;
+	width: 250px;
+	max-width: 100%;
+}
+.searchform input{
+	padding-left: 8px;
+}
+.bypostauthor {
+	display: block;
+}
+.comments .comment{
+	width: 100%;
+}
+
+.social .icon:hover{
+	color: #000;
+}
